@@ -1,0 +1,102 @@
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin: 50px 0;
+  font-weight: bold;
+}
+
+.carousel-inner img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-inner h5 {
+  margin-top: 15px;
+}
+
+.food-grid,
+.restaurant-grid,
+.hotel-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.food-item,
+.restaurant-card,
+.hotel-card {
+  width: 230px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-item:hover,
+.restaurant-card:hover,
+.hotel-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.food-item img,
+.restaurant-card img,
+.hotel-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-primary,
+.btn-success {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: 100% 100%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
